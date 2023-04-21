@@ -4,6 +4,7 @@
   "description": "Hola este es el repo de template",
   "main": "index.js",
   "scripts": {
+    "start": "node --watch index.js",
     "lint": "eslint",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
@@ -14,5 +15,8 @@
   "devDependencies": {
     "eslint": "^8.38.0",
     "husky": "^8.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
