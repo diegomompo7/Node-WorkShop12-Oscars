@@ -10,23 +10,27 @@
     <h1>Bienvenido a la API de ganadores de los Oscar</h1>
     <p>Puedes consultar:</p>
     <ul>
-        <li><a>Lista de años disponibles</a></li>
-        <li><a>Premios 2011</a></li>
-        <li>...</li>
-        <li><a>Premios 2015</a></li>
+        <li><a href="/oscars">Lista de años disponibles</a></li>
+        <li><a href="/oscars/2011">Premios 2011</a></li>
+        <li><a href="/oscars/2012">Premios 2012</a></li>
+        <li><a href="/oscars/2013">Premios 2013</a></li>
+        <li><a href="/oscars/2014">Premios 2014</a></li>
+        <li><a href="/oscars/2015">Premios 2015</a></li>
     </ul>
     <p>También puedes añadir premios a un año en concreto (por ejemplo 2011) haciendo post a:</p>
     <ul>
-        <li><a>/oscars/2011</a></li>
+        <li><a href="/oscars/2011">/oscars/2011</a></li>
     </ul>
     <p>Y mandando el body correspondiente</p>
     <p>{ "category": "ACTRESS IN LEADING ROLE", "entity" : "Meryl Streep" }</p>
 
     <p>Para consultar en un año que película o actores se llevaron más de un 1 premio </p>
     <ul>
-        <li><a>Lista de ganadores múltiples(2011)</a></li>
-        <li><a>...</a></li>
-        <li><a>Lista de ganadores múltiples(2015)</a></li>
+        <li><a href="/winners-multiple/2011">Lista de ganadores múltiples(2011)</a></li>
+        <li><a href="/winners-multiple/2012">Lista de ganadores múltiples(2012)</a></li>
+        <li><a href="/winners-multiple/2013">Lista de ganadores múltiples(2013)</a></li>
+        <li><a href="/winners-multiple/2014">Lista de ganadores múltiples(2014)</a></li>
+        <li><a href="/winners-multiple/2015">Lista de ganadores múltiples(2015)</a></li>
     </ul>
 
 </body>
